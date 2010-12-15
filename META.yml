@@ -19,7 +19,7 @@ resources:
   bugtracker: http://rt.perl.org/rt3/
   homepage: http://search.cpan.org/dist/Dumpvalue
   repository: git://github.com/rafl/dumpvalue.git
-version: 1.14
+version: 1.15
 x_Dist_Zilla:
   plugins:
     -
@@ -78,6 +78,10 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@Basic/UploadToCPAN'
       version: 4.102346
+    -
+      class: Dist::Zilla::Plugin::DualLife
+      name: DualLife
+      version: 0.01
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: MetaConfig

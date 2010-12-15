@@ -39,7 +39,7 @@
          "web" : "http://github.com/rafl/dumpvalue"
       }
    },
-   "version" : "1.14",
+   "version" : "1.15",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -111,6 +111,11 @@
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",
             "name" : "@Basic/UploadToCPAN",
             "version" : "4.102346"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::DualLife",
+            "name" : "DualLife",
+            "version" : "0.01"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaConfig",
