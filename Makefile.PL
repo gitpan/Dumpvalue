@@ -9,22 +9,22 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'provides screen dump of Perl data.',
-  'AUTHOR' => 'Ilya Zakharevich <ilya@math.berkeley.edu>, The Perl 5 Porters',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "ABSTRACT" => "provides screen dump of Perl data.",
+  "AUTHOR" => "Ilya Zakharevich <ilya\@math.berkeley.edu>, The Perl 5 Porters",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Dumpvalue',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Dumpvalue',
-  'PREREQ_PM' => {
-    'Devel::Peek' => '0'
+  "DISTNAME" => "Dumpvalue",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Dumpvalue",
+  "PREREQ_PM" => {
+    "Devel::Peek" => 0
   },
-  'VERSION' => '1.16',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "1.17",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
